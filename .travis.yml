@@ -4,3 +4,6 @@ jdk:
 script:
   - echo "Skipping tests"
 sudo: true
+before_install:
+  - chmod +x mvnw
+  - chmod +x build.sh
