@@ -3,5 +3,3 @@ jdk:
   - oraclejdk8
 script:
   - echo "Skipping tests"
-install:
-  -
